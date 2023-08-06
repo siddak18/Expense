@@ -4,7 +4,8 @@ const cors=require("cors");
 const mongoose=require("mongoose");
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://64cf492c74696f322a4b9d49--papaya-halva-7de1ec.netlify.app/',
+  
 };
 app.use(cors(corsOptions));
 app.use(epxress.json());
