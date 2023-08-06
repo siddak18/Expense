@@ -14,6 +14,7 @@ app.listen(port,()=>{
 
 
 
+
 //mongodb+srv://siddakrajpal14:AlVngwMGWw5znV53@cluster0.bru4m1z.mongodb.net/?retryWrites=true&w=majority
 const url="mongodb+srv://siddakrajpal14:AlVngwMGWw5znV53@cluster0.bru4m1z.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(url,{useNewUrlParser:true});
