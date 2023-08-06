@@ -4,7 +4,9 @@ const cors=require("cors");
 const mongoose=require("mongoose");
 app.use(cors());
 app.use(epxress.json());
-const port=process.PORT||8000;
+const port=process.env.PORT||8000;
+console.log(port);
+
 app.listen(port,()=>{
     console.log("live at port ${port}");
 });
