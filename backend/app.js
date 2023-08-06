@@ -2,7 +2,11 @@ const epxress=require("express");
 const app=epxress();
 const cors=require("cors");
 const mongoose=require("mongoose");
-app.use(cors());
+
+const corsOptions = {
+  origin: 'http://localhost:3000',
+};
+app.use(cors(corsOptions));
 app.use(epxress.json());
 const port=process.env.PORT||8000;
 console.log(port);
