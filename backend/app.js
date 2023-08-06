@@ -30,7 +30,7 @@ const model=mongoose.model("User",userschema);
 
 app.get("/",async(req,res)=>{
     const user=model.findOne({username:req.body.username});
-    res.send("si");
+    res.json({name:"sidda"});
 });
 app.post("/",async(req,res)=>{
     console.log(req.body);
