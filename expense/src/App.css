@@ -12,7 +12,7 @@ body{
   width: 100%;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Users\sidda\OneDrive\Desktop\two\expense\src\25579571_accountant_font.jpg);
+  background-image: url("./25579571_accountant_font.jpg");
   background-size: cover; /* This will stretch the image to cover the entire container */
     background-repeat: no-repeat;
     background-position: center center;
