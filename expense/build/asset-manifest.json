@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9e0fc46.css",
+    "main.js": "/static/js/main.9c3fdd7d.js",
+    "static/js/787.606f0ee5.chunk.js": "/static/js/787.606f0ee5.chunk.js",
+    "static/media/25579571_accountant_font.jpg": "/static/media/25579571_accountant_font.c5d13d44779b83177416.jpg",
+    "index.html": "/index.html",
+    "main.c9e0fc46.css.map": "/static/css/main.c9e0fc46.css.map",
+    "main.9c3fdd7d.js.map": "/static/js/main.9c3fdd7d.js.map",
+    "787.606f0ee5.chunk.js.map": "/static/js/787.606f0ee5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9e0fc46.css",
+    "static/js/main.9c3fdd7d.js"
+  ]
+}

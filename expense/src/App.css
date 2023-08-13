@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  /* background: radial-gradient(135.11% 134.23% at -0.00% 2.36%, #00E0FF 0%, #0044F2 100%); */
+}
+
+.des{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url(C:\Users\sidda\OneDrive\Desktop\two\expense\src\25579571_accountant_font.jpg);
+  background-size: cover; /* This will stretch the image to cover the entire container */
+    background-repeat: no-repeat;
+    background-position: center center;
+  height: 100vh;
+}
+.home{
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width:450px ) {
+  .des{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /* background: rgba(84, 198, 148, 0.779); */
+   height: max-content;
+   padding-bottom: 50px;
+   padding-top: 50px;
+  }
+  .home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

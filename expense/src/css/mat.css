@@ -1,0 +1,189 @@
+
+.math1{
+    width: 25%;
+    padding: 10px;
+    box-shadow: .5px .5px 1px 1px black;
+    margin: 5px;
+    height: fit-content;
+    font-family:'Lexend Deca', sans-serif;
+    background-color: white;
+    transition: 1s ease-in-out;
+    /* background-image: url(https://github.com/adrianhajdin/speechly_expense_tracker_project/blob/main/src/assets/money.png?raw=true); */
+}
+
+.math1:hover{
+    transform: translateY(-10px);
+    transform: scale(1.05);
+}
+.math1>h1{
+    font-size: 2vw;
+    margin: 0;
+  padding: 0;
+}
+.math1>h4{
+    font-size: 1vw;
+    margin: 0;
+    padding: 0;
+}
+
+    input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.math2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:20px;
+}
+.math2>h2{
+    text-align: center;
+    margin-top: 0px;
+    margin: 0;
+  padding: 0;
+  font-size: 2vw;
+}
+.math2>p{
+    text-align: center;
+    margin: 0;
+  padding: 0;
+  font-size: 1vw;
+}
+.math3{
+    margin-top: 30px;
+}
+.math4{
+    width: 50%;
+}
+
+.math4>select{
+width: 90%;
+height: 20px;
+}
+.math4>p{
+    margin: 0;
+    padding: 0;
+}
+.math45{
+    display: flex;
+}
+.math5{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+.math5>select{
+    height: 20px;
+    width: 90%;
+    border-bottom: 1px solid black;
+    align-self: flex-end;
+}
+.math67{
+    display: flex;
+}
+.math6{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+.math6>input{
+    width: 85%;
+}
+.math7{
+    width: 50%;
+}
+.math8{
+    width: 100%;
+}
+.math8>input{
+    width: 90%;
+}
+.math8>p,.math8>input{
+    margin: 0;
+    padding: 0;
+}
+
+.math9>button{
+    width: 98%;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.math10{
+    height: 150px;
+    margin-top: 15px;
+    overflow: auto;
+    padding: 5px;
+}
+.math101{
+    display: flex;
+    width: 95%;
+    margin-top: 5px;
+}
+.co{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.det{
+    width: 70%;
+    padding-left: 5px;
+}
+.ic{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.det1>h3,.det1>p{
+    margin: 0;
+    padding: 0;
+}
+.det1>h3{
+    font-size: 1.5vw;
+}
+.det1>p{
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 460px) {
+    /* CSS rules to apply for screens with a maximum width of 768 pixels */
+    .math1{
+        width: 90%;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: fit-content;
+    }
+    .det1>h3{
+        font-size: 1rem;
+    }
+    .det1>p{
+        font-size: .5rem;
+    }
+    .math1>h1{
+        font-size: 2rem;
+        margin: 0;
+      padding: 0;
+    }
+    .math1>h4{
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+    .math2>h2{
+        text-align: center;
+        margin-top: 0px;
+        margin: 0;
+      padding: 0;
+      font-size: 2rem;
+    }
+    .math2>p{
+        text-align: center;
+        margin: 0;
+      padding: 0;
+      font-size: 1rem;
+    }
+  }

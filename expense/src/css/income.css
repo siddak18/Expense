@@ -1,0 +1,58 @@
+.income1{
+    width: 30%;
+    padding: 10px;
+    box-shadow:.5px .5px 1px 1px black;
+    margin: 10px;
+    height: max-content;
+    align-self: center;
+    background-color: white;
+    transition: 1s ease-in-out;
+    outline: none;
+    border: none;
+}
+
+.income1:hover{
+    transform: scale(1.05);
+    /* transform: translateY(-10px); */
+}
+
+.income1>h1,.income1>h4{
+    margin: 0;
+    padding: 0;
+}
+.income1>h1{
+    font-size: 3vw;
+}
+.income1>h4{
+    margin-top:20px ;
+    font-size: 1vw;
+}
+.income2{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 460px) {
+    /* CSS rules to apply for screens with a maximum width of 768 pixels */
+    .income1{
+        width: 90%;
+        margin: 0;
+    }
+    .income1>h1{
+        font-size: 3rem;
+    }
+    .income1>h4{
+        margin-top:20px ;
+        font-size: 1rem;
+    }
+  }
+
+  .incomechart{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
