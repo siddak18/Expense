@@ -4,7 +4,7 @@ const cors=require("cors");
 const mongoose=require("mongoose");
 
 const corsOptions = {
-  origin: 'https://64d9d0020fb7710008550733--glittery-concha-0f7452.netlify.app',
+  origin: 'https://64d9d0020fb7710008550733--glittery-concha-0f7452.netlify.app'
   
 };
 app.use(cors(corsOptions));
