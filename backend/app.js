@@ -34,10 +34,19 @@ const userschema=mongoose.Schema({
 });
 const model=mongoose.model("User",userschema);
 
+// app.get("/",async(req,res)=>{
+//     const user=model.findOne({username:req.body.username});
+//     res.json(user);
+// });
 app.get("/",async(req,res)=>{
-    const user=model.findOne({username:req.body.username});
-    res.json(user);
-});
+const user = await model.findOne({ username: req.body.username });
+const userResponse = {
+    username: user.username,
+    // Include other relevant fields
+};
+res.json(userResponse);
+}
+res.json(userResponse);
 app.post("/",async(req,res)=>{
     console.log(req.body);
     const check=await model.findOne({username:req.body.username});
