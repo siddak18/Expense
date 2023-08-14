@@ -45,7 +45,7 @@ const userResponse = {
     // Include other relevant fields
 };
 res.json(userResponse);
-}
+});
 
 app.post("/",async(req,res)=>{
     console.log(req.body);
