@@ -46,7 +46,7 @@ const userResponse = {
 };
 res.json(userResponse);
 }
-res.json(userResponse);
+
 app.post("/",async(req,res)=>{
     console.log(req.body);
     const check=await model.findOne({username:req.body.username});
